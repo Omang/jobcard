@@ -1,0 +1,34 @@
+<div class="col-md-6 col-sm-6 col-xs-12">
+    
+        <h3 class="text-center">Cv</h3>
+    <dl class="dl-horizontal">
+        <dt>Firstname:</dt>
+        <dd>{{cvitems.firstName}}</dd>
+        <dt>Lastname:</dt>
+        <dd>{{cvitems.lastName}}</dd>
+        <dt>Gender:</dt>
+        <dd>{{cvitems.gender}}</dd>
+        <dt>Contacts:</dt>
+        <dd>{{cvitems.email}}</dd>
+        <dt>Location:</dt>
+        <dd>{{cvitems.district}} District</dd>
+        <dt>Education:</dt>
+        <dd>{{cvitems.proffesion}} in {{cvitems.education}}</dd>
+        <dt>Skills:</dt>
+        <dd>{{cvitems.skilldes}}</dd>
+        <dt>Experince:</dt>
+        <dd>{{cvitems.expedes}}</dd>
+    </dl>
+                
+       
+</div>
+<div class="col-md-6 col-sm-6 col-xs-12">
+    <nav>
+        <ul class="nav nav-pills">
+            <li><a ui-sref="main.joblev">job by your proffesion level</a></li>
+            <li><a ui-sref="main.jobloc">jobs by your location</a></li>
+            <li><a ui-sref="main.jobpro">jobs by your proffesion field</a></li>
+        </ul>
+    </nav>
+    <div ui-view></div>
+</div>

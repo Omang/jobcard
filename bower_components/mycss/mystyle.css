@@ -1,0 +1,36 @@
+.glyphicon-dashboard {
+    font-size: 3em;
+    color: blue;
+    cursor: pointer;
+    z-index: 1000000;
+    opacity: 0;
+}
+.leftnav {
+    position: fixed;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.glyphicon-remove-circle{
+    right: 10px;
+    top:10px;
+    opacity: 0.7;
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.glyphicon-remove-circle:hover{
+    opacity: 1;
+    color: red;
+}
+.navitems {
+   transition: all 0.3s ease-in-out; 
+}
+.hide_menu {
+    margin-left: -250px;
+}
+.opacity_one {
+    opacity: 1;
+     transition: all 0.3s ease-in-out;
+}
